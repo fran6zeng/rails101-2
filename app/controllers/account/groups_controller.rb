@@ -5,5 +5,5 @@ class Account::GroupsController < ApplicationController
     @groups = current_user.participated_groups
   end
 
-  
+
 end
